@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vid-container {
+    margin-bottom: 20px;
+}
+
+.player-container,
+.sound-picker,
+.time-select,
+.time-display,
+.play {
+    margin: 10px 0;
+}
